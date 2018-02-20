@@ -27,4 +27,17 @@ $ git commit -m "first commit notes in local repo"  (To first commit)
  1 file changed, 19 insertions(+)
  create mode 100644 notes.txt
 
+Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (master)
+$ git add -A (to add all files in repo)
+
+
+Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (master)
+$ git commit -a -m "adding 3 files together" (commiting all files)
+[master 5c2d888] adding 3 files together
+ 3 files changed, 14 insertions(+), 1 deletion(-)
+ create mode 100644 demo2.txt
+ create mode 100644 demo3.txt
+
+
+
 
