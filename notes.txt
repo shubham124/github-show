@@ -27,4 +27,54 @@ $ git commit -m "first commit notes in local repo"  (To first commit)
  1 file changed, 19 insertions(+)
  create mode 100644 notes.txt
 
+Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (master)
+$ git add -A (to add all files in repo)
+
+
+Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (master)
+$ git commit -a -m "adding 3 files together" (commiting all files)
+[master 5c2d888] adding 3 files together
+ 3 files changed, 14 insertions(+), 1 deletion(-)
+ create mode 100644 demo2.txt
+ create mode 100644 demo3.txt
+
+------------------------------------------------------------------------------------------------------------
+#Branching
+Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (master)
+$ git branch firstbranch (creating branch)
+
+Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (master)
+$ git checkout firstbranch (switch to new branch)
+M       notes.txt
+Switched to branch 'firstbranch'
+
+# add one demo4 file in local folder
+
+Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (firstbranch)
+$ git add demo4.txt
+
+Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (firstbranch)
+$ git commit -a
+[firstbranch 2092b67] commiting in firstbranch
+ 2 files changed, 14 insertions(+)
+ create mode 100644 demo4.txt
+
+Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (firstbranch)
+$ ls
+demo2.txt  demo3.txt  demo4.txt  notes.txt  README.md
+
+Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (firstbranch)
+$ git checkout master
+Switched to branch 'master'
+
+Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (master)
+$ ls
+demo2.txt  demo3.txt  notes.txt  README.md
+
+------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 
