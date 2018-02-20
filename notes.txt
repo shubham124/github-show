@@ -38,6 +38,7 @@ $ git commit -a -m "adding 3 files together" (commiting all files)
  create mode 100644 demo2.txt
  create mode 100644 demo3.txt
 
+<<<<<<< HEAD
 ------------------------------------------------------------------------------------------------------------
 #Branching
 Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (master)
@@ -75,6 +76,8 @@ demo2.txt  demo3.txt  notes.txt  README.md
 
 
 
+=======
+>>>>>>> firstbranch
 
 
 
