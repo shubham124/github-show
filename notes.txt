@@ -16,4 +16,15 @@ From https://github.com/shubham124/github-show
  * [new branch]      master     -> origin/master
 
 Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (master)
-$
+$ git config user.email "shubham35arora@gmail.com" (to Configure user email)
+
+Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (master)
+$ git config user.name "shubham124" (to configure user name)
+
+Shubham Arora@ShubhamArora-HP MINGW64 /d/Github (master)
+$ git commit -m "first commit notes in local repo"  (To first commit)
+[master 525e67e] first commit notes in local repo
+ 1 file changed, 19 insertions(+)
+ create mode 100644 notes.txt
+
+
